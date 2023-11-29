@@ -1,0 +1,49 @@
+# General site settings
+title: Your Site Title
+description: Your site's description
+baseurl: "" # If your site is hosted in a subdirectory, specify it here
+url: "https://example.com" # Your site's URL
+
+# Build settings
+markdown: kramdown
+
+# Change the theme to "jekyll-theme-minimal"
+theme: jekyll-theme-minimal
+
+# Plugins
+plugins:
+  # Add any Jekyll plugins you need here
+
+# Permalinks
+permalink: pretty # Options: pretty, date, none
+
+# Exclude files/folders from being processed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Collections
+collections:
+  your_collection_name:
+    output: true
+    # Add more collection-specific settings here
+
+# Navigation links
+navigation:
+  - title: Home
+    url: /
+
+# Custom variables
+custom_variable_name: custom_value
+
+# Jekyll build options
+jekyll_options:
+  incremental: false # Set to true for incremental builds
+
+# Additional settings
+additional_setting_name: additional_setting_value
