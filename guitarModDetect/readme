@@ -1,5 +1,5 @@
 Guitar Modulation Detection
-This project is a machine learning-based system that detects guitar modulation effects (e.g., chorus, flanger, vibrato, Wah, tremolo) in an input audio file. By analyzing the unique characteristics of each modulation effect, this project can help musicians, audio engineers, and enthusiasts identify and classify modulation effects used in a guitar recording.
+This project is a machine learning-based system that detects guitar modulation effects (chorus, flanger, vibrato, Wah, tremolo) in an input audio file. By analyzing the unique characteristics of each modulation effect, this project can help musicians, audio engineers, and enthusiasts identify and classify modulation effects used in a guitar recording.
 
 
 
@@ -26,7 +26,7 @@ Spectral Contrast: Helps identify the harmonic structure.
 Zero-Crossing Rate: Measures the rate at which the signal changes from positive to negative, often affected by modulation.
 Normalize Features: Standardize feature values to improve model performance.
 Model Training
-A supervised learning model (e.g., Random Forest, SVM, or CNN) is trained on labeled audio data with modulation effects. The model is evaluated on a validation set to ensure accuracy. After training, the model can classify modulation effects on new audio files.
+A supervised learning model (CNN) is trained on labeled audio data with modulation effects. The model is evaluated on a validation set to ensure accuracy. After training, the model can classify modulation effects on new audio files.
 
 Requirements
 Python 3.7+
